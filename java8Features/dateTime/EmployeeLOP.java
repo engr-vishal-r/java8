@@ -15,7 +15,7 @@ public class EmployeeLOP {
 	        long lops = diff / (24 * 60 * 60 * 1000);
 	        return lops + 1;
 	    }
-		public static void main(String[] args) throws ParseException {
+		public static void main(String[] args) {
 			try {
 				long result = calculateLOPs("15/02/2025", "15/03/2025");
 				System.out.println("Number of LOP Days : " + result);
@@ -23,7 +23,6 @@ public class EmployeeLOP {
 			catch (ParseException e){
 				System.out.println("Invalid Date Format : " + e.getMessage());
 			}
-
 	}
 }
 
