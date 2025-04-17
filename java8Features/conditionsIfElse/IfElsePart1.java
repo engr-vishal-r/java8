@@ -15,6 +15,7 @@ public class IfElsePart1 {
 	 */
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the Number :  -> ");
         int wind = scanner.nextInt(); // Don't change this line
         String status = "unset";
         // Type your code below
