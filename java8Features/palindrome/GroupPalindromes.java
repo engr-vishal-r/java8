@@ -13,7 +13,7 @@ public class GroupPalindromes {
         return true;
     }
 
-    // Method to group palindromes and non-palindromes
+    //Method to group palindromes and non-palindromes
     public static List<List<String>> groupPalindromes(String[] words) {
         List<String> palindromes = new ArrayList<>();
         List<String> nonPalindromes = new ArrayList<>();
