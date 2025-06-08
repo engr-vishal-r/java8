@@ -18,6 +18,8 @@ public class SortStaticDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		long startTime = System.nanoTime();
+		
 		List<String> countrylst = Arrays.asList("India", "America", "Japan", "america", "Brazil");
 		countrylst.sort(Comparator.comparing(String::toLowerCase)); 
 		Collections.reverse(countrylst); // will sort in String reverse sorting order
@@ -26,5 +28,9 @@ public class SortStaticDemo {
 		for (String countryName : countrylst) {
 			System.out.println(countryName);
 		}
+		
+		long endTime = System.nanoTime();
+		long timetaken = endTime - startTime;
+		System.out.println("timetaken -> " + timetaken);
 	}
 }

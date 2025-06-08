@@ -24,11 +24,11 @@ public class NestedIfElse {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter Age  -> ");
-		int age = scanner.nextInt(); // Don't change this line
+		int age = scanner.nextInt(); 
 		System.out.println("Enter Height  -> ");
-		int height = scanner.nextInt(); // Don't change this line
+		int height = scanner.nextInt(); 
 		System.out.println("Are you with adult  -> ");
-		boolean hasAdult = scanner.nextBoolean(); // Don't change this line
+		boolean hasAdult = scanner.nextBoolean(); 
 
 		// Write your code below
 		if (age >= 12) {

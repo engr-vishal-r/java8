@@ -16,7 +16,7 @@ public class IfElsePart1 {
 	public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the Number :  -> ");
-        int wind = scanner.nextInt(); // Don't change this line
+        int wind = scanner.nextInt(); 
         String status = "unset";
         // Type your code below
         if(wind < 8){
@@ -29,8 +29,8 @@ public class IfElsePart1 {
             status ="Storm";
         }
         
-        // Don't change the line below
+        
         System.out.println("status = " + status);
-        scanner.close(); // Closing the scanner after use
+        scanner.close(); 
     }
 }

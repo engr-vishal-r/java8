@@ -21,6 +21,8 @@ public class NoOfDays {
 		
 		long totalNumOfDays = ChronoUnit.DAYS.between(startDate, endDate);
 		System.out.println("Total Number Of Days  ->  " +  totalNumOfDays);
+		
+		scanner.close();
 	}
 
 }
