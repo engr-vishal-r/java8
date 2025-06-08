@@ -1,0 +1,43 @@
+# ===== Java Class Files =====
+*.class
+
+# ===== Compiled Output =====
+bin/
+build/
+out/
+target/
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+
+# ===== VS Code =====
+.vscode/
+
+# ===== Logs and Temp Files =====
+*.log
+*.tmp
+*.swp
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Maven =====
+.mvn/
+dependency-reduced-pom.xml
+
+# ===== Gradle =====
+.gradle/
+build/
+
+# ===== Others =====
+*.jar
+*.war
+*.ear
