@@ -6,6 +6,12 @@ public class ValidAnagrams {
 
 	// Function to check if two strings are anagrams
 	static boolean areAnagrams(String s1, String s2) {
+		// Convert both strings to lowercase
+        s1 = s1.toLowerCase();
+        s2 = s2.toLowerCase();
+
+        // Early exit if lengths differ
+        if (s1.length() != s2.length()) return false;
 
 		// Sort both strings
 		char[] s1Array = s1.toCharArray();

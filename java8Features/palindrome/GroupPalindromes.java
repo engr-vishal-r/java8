@@ -18,7 +18,7 @@ public class GroupPalindromes {
         List<String> palindromes = new ArrayList<>();
         List<String> nonPalindromes = new ArrayList<>();
 
-        for (String word : words) {
+        for (String word : words) {	
             if (isPalindrome(word)) {
                 palindromes.add(word);
             } else {
